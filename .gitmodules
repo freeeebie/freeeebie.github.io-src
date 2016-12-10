@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:freeeebie/freeeebie.github.io.git
