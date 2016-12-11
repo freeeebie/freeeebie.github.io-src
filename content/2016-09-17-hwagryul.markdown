@@ -1,0 +1,79 @@
+---
+Title: "확률"
+Date: 2016-09-17 00:27:19 +0900
+Tags: "Math"
+---
+#확률분포
+
+##Random Variable(확률변수)
+
+정의  
+
+$$ X:\Omega\Rightarrow R $$  
+X: 함수
+
+이산확률변수  
+$P(X=k)= P(\{w:X(w)=k\})$
+
+##Joint probability(결합확률)  
+* 확률질량함수  
+이산데이터에 대하여 누적 확률  
+* 누적분포함수 (CDF)  
+	확률값을 적분한 것. 1에 수렴 
+* 확률밀도함수  
+누적분포를 미분한 것 
+
+##Maginary probability(주변확률)
+
+두 변수중 한가지 확률변수 계산  
+왜  maginary 인가?? table 로 표현하면 주분에 위치하므로, 
+
+##Conditional PMF (조건부 확률)
+
+$$P_{Y|X} (y|x) =   $$
+$${P_{XY}(x,y)} \over {P_X(x)} $$
+
+random variable X의 값이 x라고 알려져 있을 때, Y가 y일 확률
+
+
+###Product rule
+
+conditional PMF 의 정의로 구함  
+$$P_{Y|X} (y|x) = P(y|x)P(x) = P(x|y)P(y)$$  
+  
+## 대표적 연속 확률 분포
+
+### 정규분포
+* 가우스 분포 
+* $ X \thicksim N(\mu, \sigma^2) $
+* PDF  
+$$ f_X(x) = \frac {1}{\sqrt{2\pi\sigma^2}}exp[-\frac{(x-\mu)^2}{2\sigma^2}]  $$  
+
+* $E[x] = \mu$
+* $var[x] = \sigma^2$
+
+## 대표적 이산 확률 분포 
+### 베르누이 분포 
+* PMF  
+$$ P_X(x) = 
+\left\{ \begin{array}{rcl}
+         p & \mbox{if}
+         & x = 1 \\ 1-p & \mbox{if} & x = 0
+                \end{array}\right.
+$$  
+
+* $E[X] = P $
+* $Var[X] = P(1-P) $ 
+
+###  이항분포  
+
+* Binomial Distribution 
+* $ X \thicksim Binom(n,p) $
+* PMF  
+$$ P_X(X) = 
+\left( \begin{array}{c} n \\ x \end{array} \right) p^x(1-p)^{n-x}
+$$  
+
+* $E[x] = \Sigma E[x_i] = np$
+* $Var[x] = \Sigma Var[X_i] = np(1-p)$
+

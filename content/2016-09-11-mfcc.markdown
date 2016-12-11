@@ -1,0 +1,38 @@
+---
+Title: "MFCC"
+Date: 2016-09-11 19:16:07 +0900
+Tags: "Machine&nbsp;Learning"
+---
+
+음성 데이터의 특징 추출  
+성대의 떨림은 고유함.성도를 system H 라고 가정하여  
+이 시스템 H의 특징을 찾음.  
+
+
+1 step  
+시그널을 일정 frame 단위로 나눔.  
+windowing 실행  
+2 step  
+해당 frame에 Fourier Transform을 실행하여 power spectrum 을 구함.  
+3 step  
+mel filter bank 적용  
+4 step  
+log 적용  
+5 step  
+DCT 실행  
+6 step  
+liftering 실행  
+
+
+
+---
+reference  
+https://en.wikipedia.org/wiki/Mel-frequency_cepstrum  
+http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/  
+
+
+
+
+
+
+

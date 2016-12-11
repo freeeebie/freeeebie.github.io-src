@@ -1,0 +1,20 @@
+---
+Title: "MFCC와 GMM 사용하여 음원 분류"
+Date: 2016-09-11 21:49:31 +0900
+Tag: 'Machine&nbsp;Learning' 
+---
+#Sound 분류  
+MFCC 와 GMM 을 사용하여 음원 파일을 인식하여 분류함  
+
+## precedure  
+1. trainging data 의 MFCC 추출  
+2. 각 training data 에 대한 GMM 생성  
+3. 입력 음원에 대하여 MFCC 추출  
+4. 각 GMM 에 대하여 확률을 계산하여 best 한 GMM 모델을 선택  
+  
+## GMM  
+clustering 기법  
+EM algorithm 사용  
+
+
+
