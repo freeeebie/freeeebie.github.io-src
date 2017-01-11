@@ -2,6 +2,12 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+THEME = "pelican-themes/pelican-bootstrap3"
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
 AUTHOR = 'freeeebie'
 SITENAME = 'Log'
 SITEURL = ''
