@@ -6,7 +6,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'render_math']
 
 AUTHOR = 'freeeebie'
 SITENAME = 'Log'
