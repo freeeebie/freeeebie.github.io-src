@@ -1,3 +1,6 @@
 [submodule "output"]
 	path = output
 	url = git@github.com:freeeebie/freeeebie.github.io.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git

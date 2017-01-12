@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 THEME = "pelican-themes/pelican-bootstrap3"
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
-
+MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites', 'render_math']
+PLUGINS = ['i18n_subsites', 'render_math', 'ipynb.markup']
 
 AUTHOR = 'freeeebie'
 SITENAME = 'Log'
