@@ -1,5 +1,5 @@
 ---
-Title: "BST node count"
+Title: BST node count
 Date: 2016-10-02 14:39:10 +0900
 Tags: algorithm
 ---

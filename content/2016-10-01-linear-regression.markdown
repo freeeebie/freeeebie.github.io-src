@@ -1,5 +1,5 @@
 ---
-Title: "Linear Regression"
+Title: Linear Regression
 Date: 2016-10-01 22:18:30 +0900
 Tags: 'Machine&nbsp;Learning' 
 ---

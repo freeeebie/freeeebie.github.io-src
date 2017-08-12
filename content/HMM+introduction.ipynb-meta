@@ -1,7 +1,7 @@
 Title: HMM Introduction 
-Slug: HMM_Introduction
 Date: 2017-02-26 14:00
 Category: posts
 Tags: ML
 Author: me
-Summary: HMM Introduction
+Summary: Hidden Markov Model(HMM)이란 Markov Model 중 state 변화에 대하여 관찰자는 알지 못하고, 단지 결과만을 관측할 수 있는 Model 을 의미한다. 즉, state 변화가 hidden 되어 있다는 의미이다.
+아래는 위키피디아에서 제시한 예제인데 이를 보면 HMM에 대하여 이해하기 수월하다.

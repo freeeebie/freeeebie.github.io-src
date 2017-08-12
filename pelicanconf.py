@@ -7,6 +7,20 @@ JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites', 'render_math', 'ipynb.markup']
+IPYNB_USE_META_SUMMARY = True
+
+PLUGINS += ['summary']
+SUMMARY_BEGIN_MARKER = '<!-- PELICAN_BEGIN_SUMMARY -->'
+SUMMARY_END_MARKER = '<!-- PELICAN_END_SUMMARY -->'
+
+IGNORE_FILES = ['.ipynb_checkpoints']
+CACHE_CONTENT = True
+
+LOAD_CONTENT_CACHE = False
+MATH_JAX = {'align': 'left',
+            'indent': '2em',
+            'responsive': True,
+            'autoNumber': 'AMS'}
 
 AUTHOR = 'freeeebie'
 SITENAME = 'Log'
@@ -33,9 +47,7 @@ LINKS = ()
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = ()
-#(('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (('github', 'http://github.com/freeeebie'),)
 
 DEFAULT_PAGINATION = False
 

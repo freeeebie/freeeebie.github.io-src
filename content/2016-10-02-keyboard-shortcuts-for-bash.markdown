@@ -1,5 +1,5 @@
 ---
-Title: "Keyboard Shortcuts for Bash"
+Title: Keyboard Shortcuts for Bash
 Date: 2016-10-02 14:33:33 +0900
 Tags: info
 ---
